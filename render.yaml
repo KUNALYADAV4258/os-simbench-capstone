@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: os-simbench-capstone
+    runtime: python
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python web_server.py
+    healthCheckPath: /api/system
+    envVars:
+      - key: MPLBACKEND
+        value: Agg
