@@ -2,7 +2,9 @@
 
 **Course:** Operating Systems Laboratory (`ENSC-351`), B.Tech Semester V  
 **Target Platform:** Ubuntu 24.04 LTS (WSL2 / Linux), Bash Shell, Python 3.x  
-**Submission Category:** Integrated OS Capstone Project (100 Marks)  
+**Submission Category:** Integrated OS Capstone Project 
+
+🌐 **Live Demo:** https://os-simbench-capstone.onrender.com
 
 ### 👥 Project Authors
 - **Kunal Yadav** (`2401730157`)
