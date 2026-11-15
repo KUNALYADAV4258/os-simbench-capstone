@@ -1,0 +1,26 @@
+{
+  "silberschatz_canonical": {
+    "description": "Standard Silberschatz textbook reference string for 3-4 frames",
+    "reference_string": [7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1],
+    "default_frames": 3
+  },
+  "belady_anomaly": {
+    "description": "Canonical trace demonstrating Belady's Anomaly on FIFO (faults increase from 9 to 10 when frames increase from 3 to 4)",
+    "reference_string": [1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5],
+    "default_frames": 3
+  },
+  "high_locality": {
+    "description": "Workload with strong temporal and spatial locality",
+    "reference_string": [1, 1, 2, 2, 3, 1, 2, 8, 9, 8, 9, 1, 2, 3, 1],
+    "default_frames": 4
+  },
+  "contiguous_sample": {
+    "blocks": [100, 500, 200, 300, 600],
+    "processes": {
+      "P1": 212,
+      "P2": 417,
+      "P3": 112,
+      "P4": 426
+    }
+  }
+}

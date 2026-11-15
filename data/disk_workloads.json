@@ -1,0 +1,16 @@
+{
+  "silberschatz_sample": {
+    "description": "Standard Silberschatz textbook disk cylinder sequence",
+    "requests": [98, 183, 37, 122, 14, 124, 65, 67],
+    "initial_head": 53,
+    "max_cylinder": 199,
+    "direction": "high"
+  },
+  "dense_cluster": {
+    "description": "Requests clustered tightly around high tracks",
+    "requests": [170, 180, 175, 190, 185, 20, 25],
+    "initial_head": 100,
+    "max_cylinder": 199,
+    "direction": "high"
+  }
+}
